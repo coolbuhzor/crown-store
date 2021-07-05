@@ -59,3 +59,26 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .menu-item {
+    min-width: 100%;
+    margin: 0 0 30px;
+    height: 350px;
+
+    &:first-child {
+      margin-right: unset;
+    }
+
+    &:last-child {
+      margin-left: unset;
+    }
+
+    .content {
+      opacity: 0.9;
+    }
+
+    // flex-direction: column;
+    // flex: auto;
+  }
+}
